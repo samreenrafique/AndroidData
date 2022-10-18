@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/one"
+        android:icon="@drawable/ic_baseline_dehaze_24"
+        android:title="Dashboard"/>
+
+    <item android:id="@+id/two"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="Favourite"/>
+
+    <item android:id="@+id/three"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification"/>
+
+    <item android:id="@+id/four"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+
+    <item android:id="@+id/five"
+        android:icon="@drawable/ic_baseline_videocam_24"
+        android:title="Video"/>
+</menu>

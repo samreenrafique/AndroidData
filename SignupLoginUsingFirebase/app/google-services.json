@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259189604212",
+    "project_id": "signuploginusingfirebase-cfa5d",
+    "storage_bucket": "signuploginusingfirebase-cfa5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259189604212:android:4320f0354603a7a5627621",
+        "android_client_info": {
+          "package_name": "com.example.signuploginusingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259189604212-j2lcv3rvoe8poghk63msnko85mcn86ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNRoBaSLpGESkXlSX4k_qyMQh2ObwE4-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259189604212-j2lcv3rvoe8poghk63msnko85mcn86ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

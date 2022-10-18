@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEA9BD"
+    tools:context=".Login">
+
+
+    <EditText
+        android:id="@+id/userpswd"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Enter pswd"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/useremail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/useremail"
+        app:layout_constraintTop_toBottomOf="@+id/useremail" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="@+id/userpswd"
+        app:layout_constraintStart_toStartOf="@+id/userpswd"
+        app:layout_constraintTop_toBottomOf="@+id/userpswd" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Already have account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:onClick="login2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

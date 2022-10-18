@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="153dp"
+        android:layout_height="118dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/user" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Cena"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Message"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginLeft="20dp"/>
+</LinearLayout>

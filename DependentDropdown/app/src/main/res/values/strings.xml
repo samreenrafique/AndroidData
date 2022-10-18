@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DependentDropdown</string>
+    <string-array name="province">
+        <item>Select Province</item>
+        <item>Sindh</item>
+        <item>Punjab</item>
+        <item>KPK</item>
+        <item>Baluchistan</item>
+    </string-array>
+
+    <string-array name="default_city">
+        <item>Select City</item>
+    </string-array>
+    <string-array name="sindh_city">
+        <item>Karachi</item>
+        <item>Hyderabad</item>
+        <item>Sukker</item>
+    </string-array>
+    <string-array name="punjab_city">
+        <item>Lahore</item>
+        <item>Pindi</item>
+        <item>Islamabad</item>
+    </string-array>
+</resources>

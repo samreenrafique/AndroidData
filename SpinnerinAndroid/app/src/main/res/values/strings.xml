@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinnerinAndroid</string>
+    <string-array name="spinneritem">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Pink</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListViewinAndroid</string>
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Mango</item>
+        <item>Banana</item>
+        <item>Pine Apple</item>
+        <item>Grapes</item>
+        <item>Guava</item>
+        <item>Watermelon</item>
+        <item>Melon</item>
+        <item>Orange</item>
+        <item>Pomegranate</item>
+        <item>Strawberry</item>
+        <item>Spodilla</item>
+        <item>Sugar apple</item>
+        <item>perismmons</item>
+    </string-array>
+</resources>

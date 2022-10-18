@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataAdd">
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userpswd"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:hint="Enter pswd"
+        android:layout_marginTop="32dp"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/useremail" />
+
+    <EditText
+        android:id="@+id/usercountry"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:hint="Enter Country"
+        android:layout_marginTop="32dp"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userpswd" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usercountry" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

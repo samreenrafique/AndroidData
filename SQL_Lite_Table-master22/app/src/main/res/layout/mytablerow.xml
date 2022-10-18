@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+        <TableRow android:background="@color/purple_200" android:padding="15dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Id"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:id="@+id/myid"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Name"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:id="@+id/myname"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Email"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:id="@+id/myemail"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Password"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:id="@+id/mypswd"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Delete"
+                android:id="@+id/delbtn"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:id="@+id/updbtn"/>
+        </TableRow>
+</TableLayout>

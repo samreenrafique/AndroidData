@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/updusername"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_margin="32dp"
+
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+ />
+
+    <EditText
+        android:id="@+id/upduserpswd"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:hint="Enter pswd"
+        android:layout_margin="32dp"
+        android:inputType="textPersonName|textPassword"
+ />
+
+    <EditText
+        android:id="@+id/upduseremail"
+        android:layout_width="301dp"
+        android:layout_height="54dp"
+        android:layout_margin="32dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textWebEmailAddress" />
+
+    <Button
+        android:id="@+id/updbutton"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:layout_margin="32dp"
+        android:backgroundTint="@color/black"
+        android:text="Update"
+ />
+</LinearLayout>

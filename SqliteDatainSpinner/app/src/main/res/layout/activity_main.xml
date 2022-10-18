@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Category"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="38dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_margin="32dp"
+        android:id="@+id/catname"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        android:text="Add Category"
+        android:id="@+id/catbtn"/>
+
+</LinearLayout>

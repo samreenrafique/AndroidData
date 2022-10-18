@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationForm"
+    android:orientation="vertical"
+    android:background="@drawable/backgrounddesign">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="@drawable/inputdesign"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_person_black_24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:background="@drawable/inputdesign"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_email_black_24dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Password"
+        android:background="@drawable/inputdesign"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_lock_black_24dp"/>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:background="@drawable/inputdesign"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FFFFFF"
+            android:drawableRight="@drawable/ic_lock_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Gender"
+        android:background="@drawable/inputdesign"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FFFFFF"
+        android:drawableRight="@drawable/ic_account_circle_black_24dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/buttondesign"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:drawableBottom="@drawable/ic_account_circle_black_24dp"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Main Page"
+        android:onClick="go"/>
+</LinearLayout>

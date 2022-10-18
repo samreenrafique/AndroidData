@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dependent Dropdown"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Province"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="28dp"
+        android:id="@+id/txtProvince"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/provincespinner"
+        android:layout_margin="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="28dp"
+        android:id="@+id/txtCity"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityspinner"
+        android:layout_margin="32dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="48dp"
+        android:text="click"
+        android:id="@+id/btn"/>
+
+
+</LinearLayout>
